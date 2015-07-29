@@ -9,7 +9,7 @@ How to add new shape:
 Instruction:
  1. Draw image and drop it to unity project;
  2. With sprite editor make sure to slice the figure and pivot point should be in the center;
- 3. Add 'polygon collider 2d' to image;
+ 3. Add 'polygon collider 2d' to image, and 'InscribedBounds' set width and height;
  4. Set layer of image to 'Image';
  5. To prevent player from cheaty draws, add 'checkpoint zones' (gameobjects with any collider2d) as childrens to the image;
  6. Set layer of all image childrens to 'CheckPoints';
