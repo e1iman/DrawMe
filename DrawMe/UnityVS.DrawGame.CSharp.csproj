@@ -72,5 +72,9 @@
     <Compile Include="Assets\InscribedBounds.cs" />
     <Compile Include="Assets\MouseFollow.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include=".github\labeler.yml" />
+    <Content Include=".github\workflows\labeler.yml" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
 </Project>
