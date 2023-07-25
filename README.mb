@@ -14,3 +14,5 @@ Instruction:
  5. To prevent player from cheaty draws, add 'checkpoint zones' (gameobjects with any collider2d) as childrens to the image;
  6. Set layer of all image childrens to 'CheckPoints';
  7. Add image object to _GM 'Arr'.
+
+for demonstration, here i would assume to have "changelog: no" label
