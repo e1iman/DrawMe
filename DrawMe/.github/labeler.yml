@@ -1,0 +1,5 @@
+"changelog: no":
+  - all: ['!CHANGELOG.md']
+    
+"changelog: yes":
+  - all: [ 'CHANGELOG.md' ]

@@ -1,0 +1,20 @@
+name: "Pull Request Labeler"
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  triage:
+    permissions:
+      contents: read
+      pull-requests: write
+    runs-on: [ self-hosted ]
+    steps:
+      -   name: Check out code
+          uses: actions/checkout@v2
+
+      -   name: Label pull requests
+          uses: actions/labeler@v4
+          with:
+            sync-labels: true
