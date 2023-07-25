@@ -9,7 +9,7 @@ jobs:
     permissions:
       contents: read
       pull-requests: write
-    runs-on: [ self-hosted, linter]
+    runs-on: [ self-hosted ]
     steps:
       -   name: Check out code
           uses: actions/checkout@v2
